@@ -3,11 +3,11 @@ import React from 'react'
 const Navbar = () => {
   return (
     <nav>
-      <div className='w-[840px] mx-auto flex pl-5'>
+      <div className='flex w-[1000px] mx-auto px-2'>
         <div>
-            <h1 className='font-roboto text-[#FB9333] text-xs font-bold pt-6 pl-2'>JEZ <span className='font-roboto text-[#585858] text-xs'>SALAD</span> </h1>
+            <h1 className='font-roboto text-[#FB9333] text-2xl font-bold pt-6'>JEZ <span className='font-roboto text-[#585858] text-2xl'>SALAD</span> </h1>
         </div>
-        <div className='flex font-poppins text-xs pt-6 mx-auto'>
+        <div className='flex pt-6 mx-auto cursor-pointer text-md font-poppins'>
             <p className='pr-6 text-[#FB9300]'>Home</p>
             <p className='pr-6'>Menu</p>
             <p className='pr-6'>Contact</p>
