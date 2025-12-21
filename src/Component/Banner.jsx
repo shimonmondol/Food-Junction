@@ -2,7 +2,8 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div className='flex items-center w-[1000px] mx-auto justify-between px-2'>
+   <div className='bg-[#F5F5F5] w-full'> 
+     <div className='flex items-center w-[1000px] mx-auto justify-between px-2'>
         <div>
             <h1 className='bg-[#FFF0DC] w-[145px] h-[30px] font-poppins font-bold text-xs text-[#FB9333] rounded-2xl mt-10 px-2 py-2 '>#1  Best Healthy Salad</h1>
             <h1 className='text-5xl font-poppins font-bold pt-4 leading-tight text-[#575757]'><span className='text-[#FB9333]'>Skip</span> The Diet,<br /> Just Eat Healthy <br />With Jez Salad</h1>
@@ -28,6 +29,7 @@ const Banner = () => {
             <img className='w-[400px] h-[450px] mt-[60px]' src="Images/Illustration.png" alt="" />
         </div>
     </div>
+   </div>
   )
 }
 

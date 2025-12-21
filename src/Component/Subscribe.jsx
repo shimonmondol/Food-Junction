@@ -2,8 +2,8 @@ import React from 'react'
 
 const Subscribe = () => {
   return (
-    <div>
-        <div className='w-[1000px] h-[400px] bg-orange-100 mx-auto rounded-3xl mt-20'>
+    <div className="bg-[#F5F5F5] w-full pt-32">
+        <div className='w-[1000px] h-[400px] bg-orange-100 mx-auto rounded-3xl'>
             <div className='items-center justify-center pt-20'>
                 <p className=' text-center font-poppins font-medium text-sm text-[#FB9333]'>Our Subscribe</p>
                 <h1 className='text-center font-poppins font-semibold text-[#585858] text-3xl pt-2' >Subscribe To Get The Latest <br />
