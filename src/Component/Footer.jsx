@@ -3,61 +3,78 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-[#F5F5F5] w-full pt-20">
-      <div className="flex w-[1000px] mx-auto justify-between px-4">
-        <div>
+      <div
+        className="
+          max-w-[990px] mx-auto px-4
+          grid grid-cols-2 gap-8
+          lg:flex lg:justify-between lg:gap-0
+        "
+      >
+        {/* LOGO & ABOUT */}
+        <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
           <p className="text-xl font-semibold font-roboto">
             <span className="text-[#FB9333]">JEZ</span> SALAD
           </p>
-          <p className="font-poppins text-md text-[#575757] pt-4">
+
+          <p className="font-poppins text-justify text-md text-[#575757] pt-4 ml-4 lg:ml-0">
             Jez Salad is the pioneer of <br />
             healthy fruit salad with <br />
             high nutrition.
           </p>
-          <p className="font-poppins text-sm text-[#575757] pt-6 pb-12">
-            ©Copyright Jez Salad
+          <p className="font-poppins text-md font-semibold text-[#575757] pt-6 pb-6 lg:pb-12 pr-2 lg:pr-0">
+            © Copyright Jez Salad
           </p>
         </div>
-        <div>
+
+        {/* FEATURES */}
+        <div className="text-center lg:text-left">
           <p className="font-poppins text-xl font-bold text-[#FB9333]">
             Feature
           </p>
           <p className="font-poppins text-md text-[#575757] pt-4">Menu</p>
-          <p className="font-poppins text-md text-[#575757]       pt-2">
-            Promo
-          </p>
-          <p className="font-poppins text-md text-[#575757]   pt-2">Contact</p>
-          <p className="font-poppins text-md text-[#575757]   pt-2">About Us</p>
+          <p className="font-poppins text-md text-[#575757] pt-2">Promo</p>
+          <p className="font-poppins text-md text-[#575757] pt-2">Contact</p>
+          <p className="font-poppins text-md text-[#575757] pt-2">About Us</p>
         </div>
-        <div>
+
+        {/* CONTACT */}
+        <div className="text-center lg:text-left">
           <p className="font-poppins text-xl font-bold text-[#FB9333]">
             Get in Touch
           </p>
-          <div className="flex pt-5">
+
+          <div className="flex justify-center pt-3 text-justify lg:justify-start lg:text-left ml-[-4px] lg:ml-0">
             <img className="w-4 h-5 mt-0.5" src="Images/Location.png" alt="" />
-            <p className="font-poppins text-md text-[#575757] ml-4">
-              8819 Ohio St. South Gate
+            <p className="font-poppins text-md text-[#575757] ml-3">
+              Ohio St. South Gate
             </p>
           </div>
-          <div className="flex pt-3">
+
+          <div className="flex justify-center pt-3 ml-3 text-justify lg:justify-start lg:text-left lg:ml-0">
             <img className="w-4 h-3 mt-1.5" src="Images/Mail.png" alt="" />
-            <p className="font-poppins text-md text-[#575757] ml-3 ">
+            <p className="font-poppins text-md text-[#575757] ml-3">
               Ourstudio@hello.com
             </p>
           </div>
-          <div className="flex pt-3">
+
+          <div className="flex justify-center pt-3 pb-8 mr-5 text-justify lg:justify-start lg:text-left lg:mr-0 lg:ml-0">
             <img className="w-3.5 h-3.5 mt-1.5" src="Images/Phone.png" alt="" />
             <p className="font-poppins text-md text-[#575757] ml-3">
               +1 386-688-3295
             </p>
           </div>
         </div>
-        <div>
-          <div>
-            <img className="h-4 w-18" src="Images/Frame 3.png" alt="" />
-            <p className="font-poppins text-md text-[#575757]     mt-4">
-              Social Media
-            </p>
-          </div>
+
+        {/* SOCIAL */}
+        <div className="mt-[2px] text-center lg:text-left">
+          <p className="font-poppins text-xl font-bold text-[#FB9333]">
+            Social Media
+          </p>
+          <img
+            className="h-4 mx-auto mt-4 lg:mx-0"
+            src="Images/Frame 3.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
