@@ -9,7 +9,7 @@ import Subscribe from './Component/Subscribe'
 function App() {
 
   return (
-    <div className='overflow-x-hidden'>
+    <div>
       <Navbar></Navbar>
       <Banner></Banner>
       <Choose></Choose>

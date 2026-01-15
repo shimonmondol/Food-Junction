@@ -16,12 +16,12 @@ const Footer = () => {
             <span className="text-[#FB9333]">JEZ</span> SALAD
           </p>
 
-          <p className="font-poppins text-justify text-md text-[#575757] pt-4 ml-4 lg:ml-0">
-            Jez Salad is the pioneer of <br />
-            healthy fruit salad with <br />
+          <p className="font-poppins text-justify text-md text-[#575757] pt-4 ml-2 sm:ml-6 lg:ml-0">
+            Jez Salad is the pioneer of <br className="hidden sm:block" />
+            healthy fruit salad with <br className="hidden sm:block" />
             high nutrition.
           </p>
-          <p className="font-poppins text-md font-semibold text-[#575757] pt-6 pb-6 lg:pb-12 pr-2 lg:pr-0">
+          <p className="font-poppins text-md font-semibold text-[#575757] pt-6 pb-6 lg:pb-12 lg:mr-0 lg:pr-0">
             © Copyright Jez Salad
           </p>
         </div>
@@ -43,24 +43,24 @@ const Footer = () => {
             Get in Touch
           </p>
 
-          <div className="flex justify-center pt-3 text-justify lg:justify-start lg:text-left ml-[-4px] lg:ml-0">
+          <div className="flex justify-center pt-3 text-justify lg:justify-start lg:text-left lg:ml-0">
             <img className="w-4 h-5 mt-0.5" src="Images/Location.png" alt="" />
             <p className="font-poppins text-md text-[#575757] ml-3">
-              Ohio St. South Gate
+              Dhaka, Bangladesh
             </p>
           </div>
 
           <div className="flex justify-center pt-3 ml-3 text-justify lg:justify-start lg:text-left lg:ml-0">
             <img className="w-4 h-3 mt-1.5" src="Images/Mail.png" alt="" />
             <p className="font-poppins text-md text-[#575757] ml-3">
-              Ourstudio@hello.com
+              Jezsalad@gmail.com
             </p>
           </div>
 
-          <div className="flex justify-center pt-3 pb-8 mr-5 text-justify lg:justify-start lg:text-left lg:mr-0 lg:ml-0">
-            <img className="w-3.5 h-3.5 mt-1.5" src="Images/Phone.png" alt="" />
-            <p className="font-poppins text-md text-[#575757] ml-3">
-              +1 386-688-3295
+          <div className="flex justify-center pt-3 pb-8 text-justify lg:justify-start lg:text-left lg:ml-0">
+            <img className="w-3.5 h-3.5 mt-1.5 sm:mr-0" src="Images/Phone.png" alt="" />
+            <p className="font-poppins pl-2 sm:pl-3 text-md text-[#575757]">
+              +88-01711-000000
             </p>
           </div>
         </div>
